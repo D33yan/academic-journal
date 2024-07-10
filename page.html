@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Shop Homepage - Start Bootstrap Template</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="./assets/css/style.css" rel="stylesheet" />
+    <style>
+        @media (min-width: 1200px) {
+            .card {
+                width: 20rem;
+            }
+        }
+        @media (max-width: 1199.98px) {
+            .card {
+                width: 18rem;
+            }
+        }
+        @media (max-width: 991.98px) {
+            .card {
+                width: 16rem;
+            }
+        }
+        @media (max-width: 767.98px) {
+            .card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation-->
+    <section>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container px-5">
+                <a class="navbar-brand" href="#!">Start Bootstrap</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="./index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./index.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./page.html">Journals</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">Services</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- Header-->
+    <header class="py-5" style="background-color: rgba(72, 6, 142, 0.842);">
+        <div class="container px-4 px-lg-5 my-5">
+            <div class="text-center text-white">
+                <h1 class="display-4 fw-bolder">Available Journals</h1>
+                <p class="lead fw-normal text-white-50 mb-0">Lets start your next best read</p>
+            </div>
+            <a href="./assets/lib/journal/journalimages/hoax-2097358.jpg"></a>
+            <a href="./assets/lib/journal/journalimages/WhatsApp Image 2024-07-07 at 10.05.10 PM.jpeg"></a>
+            <a href="./assets/lib/journal/journalimages/WhatsApp Image 2024-07-07 at 8.29.45 PM.jpeg"></a>
+            <a href="./assets/lib/journal/journalimages/WhatsApp Image 2024-07-07 at 9.44.38 PM.jpeg"></a>
+            <a href="./assets/lib/journal/journalimages/WhatsApp Image 2024-07-07 at 9.55.31 PM.jpeg"></a>
+            <a href="./assets/lib/journal/journalimages/WhatsApp Image 2024-07-07 at 9.55.32 PM (1).jpeg"></a>
+            <a href="./assets/lib/journal/journalimages/WhatsApp Image 2024-07-07 at 9.55.32 PM.jpeg"></a>
+        </div>
+    </header>
+    <!-- Section-->
+    <section class="py-5">
+        <div class="container px-4 px-lg-5 mt-5">
+            <div id="journal-container" class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                <!-- Journal cards will be inserted here by JavaScript -->
+            </div>
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class="py-5 bg-dark">
+        <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2025</p></div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+
+    <!-- JavaScript to dynamically generate journal cards -->
+    <script>
+        const journals = [
+            {
+                title : 'Artificial Intelligence',
+                author : 'Prof. Pradipta Kumar Das',
+                description :'Artificial Intelligence refers to the simulation of human intelligence in machines that are programmed to think and learn like humans.',
+                imagehref: './assets/lib/journal/journalimages/WhatsApp Image 2024-07-07 at 10.05.10 PM.jpeg',
+                pdfhref:''
+            },
+            {
+                title : 'Study of Mobile App Development Industry',
+                author : 'Abid Bin Syeed',
+                description :'App development that targets handheld devices has now become a standard by which services reach the target audience faster since almost everyone has access to a mobile device. The App Development industry has only grown in leaps and bounds ever since its inception. This paper discusses in detail the Mobile App Development Industry and its predominance in India. Objectives: To analyse and understand the Mobile App Development Industry worldwide, to understand the preference, usage, revenue, cost, and scope of App Development in India and to perform a SWOC Analysis for the Mobile App Development Industry.',
+                imagehref: './assets/lib/journal/journalimages/WhatsApp Image 2024-07-07 at 8.29.45 PM.jpeg',
+                pdfhref:''
+            },
+            {
+                title:'Money Management Among University Students',
+                author: 'Wan Rasyidah Wan Nawang, Syadiyah Abdul Shukor',             
+                description: 'Money matters are integral to our lives and for university students, these are an even more pressing aspect. Thus, it is important for university students to have prudent and responsible money management as this can impact their future and personal well-being. The study is set to meet its objective which is to investigate the impact of economic, social, and psychological factors on money management among university students.',
+                imagehref: './assets/lib/journal/journalimages/WhatsApp Image 2024-07-07 at 8.29.45 PM.jpeg',
+                pdfhref:''
+            },
+            {
+                title:'Network Connections',
+                author: 'John N. Davies, Rich Picking, Vic Grout',             
+                description: 'A visual representation of the interconnectedness of computer science, depicting a complex network of circuits, wires, and nodes. This image symbolizes the dynamic and ever-evolving nature of computer science, where innovative ideas and solutions are constantly emerging and connecting.',
+                imagehref: './assets/lib/journal/journalimages/WhatsApp Image 2024-07-07 at 9.44.38 PM.jpeg',
+                pdfhref:''
+            },
+            {
+                title:'The Landscape of User-centered Misinformation Interventions - A Systematic Literature Review',
+                author: 'Kevin Hart Wig, Rich Picking, Vic Grout',             
+                description: 'This study provides a systematic literature review on user-centered misinformation interventions, exploring various strategies and their effectiveness in combating misinformation.',
+                imagehref: './assets/lib/journal/journalimages/WhatsApp Image 2024-07-07 at 9.55.32 PM (1).jpeg',
+                pdfhref:''
+            },
+            {
+                title:'A Deep Learning Approach for Facial Emotion Recognition using Convolutional Neural Networks (CNNs)',
+                author: 'Dr. Sophia Patel',             
+                description: 'This topic demonstrates a deep learning approach for facial emotion recognition using CNNs. The proposed model consists of convolutional and pooling layers to extract features from input images, followed by flatten and dense layers to classify emotions. The model is trained and tested on a dataset of facial images with different emotions.',
+                imagehref: '/assets/lib/journal/journalimages/WhatsApp Image 2024-07-07 at 9.55.31 PM.jpeg',
+                pdfhref:''
+            },
+            {
+                title:'Website Development and Website Designing',
+                author: 'Priya Surana',             
+                description: 'Websites today generate tremendous amounts of data and this data needs to be processed effectively by the creators. One such important factor is processing images on the website and generating effective data from it through techniques like Web Scraping',
+            }
+        ];
+
+        const journalContainer = document.getElementById('journal-container');
+
+        journals.forEach(journal => {
+            const journalCard = document.createElement('div');
+            journalCard.className = 'col mb-5 w-auto';
+            journalCard.innerHTML = `
+                <div class="card h-100">
+                    <!-- Journal image -->
+                    <img class="card-img-top" src="${journal.imagehref || './assets/images/placeholder.png'}" alt="Journal Image" />
+                    <!-- Journal details -->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <!-- Journal title -->
+                            <h5 class="fw-bolder">${journal.title}</h5>
+                            <!-- Journal author -->
+                            <p><strong>Author:</strong> ${journal.author}</p>
+                            <!-- Journal description -->
+                            <p>${journal.description}</p>
+                        </div>
+                    </div>
+                    <!-- Journal actions -->
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center">
+                            <a class="btn btn-outline-dark mt-auto" href="${journal.pdfhref || '#'}">View PDF</a>
+                        </div>
+                    </div>
+                </div>
+            `;
+            journalContainer.appendChild(journalCard);
+        });
+    </script>
+</body>
+</html>

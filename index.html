@@ -3,129 +3,180 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Academic Journal</title>
     <link rel="stylesheet" href="./assets/lib/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-<body style="background-color: rgb(234, 198, 204);">
-    <!-- navbar -->
+<body style="background-color: rgb(86, 2, 139);">
+    <!-- Navbar -->
     <section>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary border-0 " style="background-color: rgb(120, 107, 132);">
-            <div class="container-fluid">
-              <a class="navbar-brand fs-3 fst-italic fw-bold" style="font-family:'Times New Roman', Times, serif ; color:rgb(234, 198, 204);"  href="#">Academic Journal</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active navbar-brand fs-5 fst-italic fw-semibold" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link navbar-brand fs-5 fst-italic fw-semibold" href="#">Link</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle navbar-brand fs-5 fst-italic fw-semibold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container px-5">
+                <a class="navbar-brand" href="#!">Academic Journal</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./page.html">Journals</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">Services</a></li>
                     </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                  </li>
-                </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-              </div>
+                </div>
             </div>
-          </nav>
+        </nav>
     </section>
-    <!-- carousel -->
+    
+    <!-- Carousel -->
     <section>
         <div id="carouselExampleCaptions" class="carousel slide carousel-fade mb-3" data-bs-ride="carousel">
             <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
-              <div class="carousel-item image-fluid active">
-                <img src="./assets/images/pexels-photo-711009.webp" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Books Are Doorways to other Worlds</h5>
-                  <p>Lets Explore</p>
+                <div class="carousel-item image-fluid active">
+                    <img src="./assets/images/pexels-photo-711009.webp" class="d-block w-100" alt="Books Are Doorways to Other Worlds">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Books Are Doorways to Other Worlds</h5>
+                        <p>Let's Explore</p>
+                    </div>
                 </div>
-              </div>
-              <div class="carousel-item image-fluid">
-                <img src="./assets/images/pexels-thought-catalog-317580-904616.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>You can't use what you don't know</h5>
-                  <p>Let's Learn </p>
+                <div class="carousel-item image-fluid">
+                    <img src="./assets/images/pexels-thought-catalog-317580-904616.jpg" class="d-block w-100" alt="You can't use what you don't know">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>You Can't Use What You Don't Know</h5>
+                        <p>Let's Learn</p>
+                    </div>
                 </div>
-              </div>
-              <div class="carousel-item image-fluid">
-                <img src="./assets/images/pexels-josh-hild-1270765-4256852.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Your mind can also Go on adventures</h5>
-                  <p>Lets start the journey</p>
+                <div class="carousel-item image-fluid">
+                    <img src="./assets/images/pexels-josh-hild-1270765-4256852.jpg" class="d-block w-100" alt="Your mind can also go on adventures">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Your Mind Can Also Go on Adventures</h5>
+                        <p>Let's Start the Journey</p>
+                    </div>
                 </div>
-              </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
             </button>
-          </div>
+        </div>
     </section>
 
+    <!-- About Us -->
+    <section>
+        <div class="container py-3 py-md-5" id="about">
+            <div class="row gy-3 gy-md-4 gy-lg-0 align-items-lg-center">
+                <div class="col-12 col-lg-6 col-xl-5">
+                    <img class="img-fluid rounded" loading="lazy" src="./assets/images/pexels-josh-hild-1270765-4256852.jpg" alt="About Us">
+                </div>
+                <div class="col-12 col-lg-6 col-xl-7">
+                    <div class="row justify-content-xl-center">
+                        <div class="col-12 col-xl-11">
+                            <h2 class="mb-3">Who Are We?</h2>
+                            <p class="lead fs-4 text-secondary mb-3 text-white">To help curate an ease of learning in our institution, 29 students came together with the help of one of our esteemed lecturers, Dr. Belgore, to create an academic journal.</p>
+                            <p class="mb-5">This is a prototype version of the full-stack website.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
     <!-- Journals -->
-     <section>
-      <div class="row">
-        <div class="col-sm-6 col mb-3 mb-sm-0 mb-2 mt-2 border-0">
-          <div class="card" style="width: 18rem;">
-            <img src="./assets/images/pexels-josh-hild-1270765-4256852.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+    <section>
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 align-items-center my-3">
+                <div class="col-lg-7">
+                    <img class="img-fluid rounded mb-4 mb-lg-0" src="./assets/images/pexels-thought-catalog-317580-904616.jpg" alt="Academic Journal">
+                </div>
+                <div class="col-lg-5">
+                    <h1 class="font-weight-light">Academic Journal</h1>
+                    <p class="fs-4 fw-light text-white">A website designed to help students and individuals navigate and acquire learning materials.</p>
+                    <a class="btn btn-primary" href="#!">Let's Get Started</a>
+                </div>
             </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col mb-3 mb-sm-0 mb-2 mt-2 border-0">
-          <div class="card" style="width: 18rem;">
-            <img src="./assets/images/pexels-photo-711009.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="card text-white my-4 fs-4 fw-bold py-1 text-center" style="background-color: rgb(194, 88, 195);">
+                <div class="card-body"><p class="text-white m-0">Recent Journals</p></div>
             </div>
-          </div>
+            <section class="py-5">
+                <div class="container px-4 px-lg-5 mt-5">
+                    <div class="row gx-4 gx-lg-5 row-cols-1 row-cols-md-3 row-cols-xl-3 justify-content-center" id="journalCards">
+                        <!-- Journal cards will be dynamically inserted here -->
+                    </div>
+                </div>
+            </section>
         </div>
-        <div class="col-sm-6 col mb-3 mb-sm-0 mb-2 mt-2 border-0">
-          <div class="card" style="width: 18rem;">
-            <img src="./assets/images/pexels-thought-catalog-317580-904616.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-        
-      </div>
-     </section>
-    <script src="./assets/js/bootstrap.bundle.min.js"></script>
-</body>
+    </section>
 
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; Academic Journal 2024</p>
+        </div>
+    </footer>
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Data for the journals
+        const journals = [
+            {
+                title: 'Artificial Intelligence',
+                author: 'Prof. Pradipta Kumar Das',
+                description: 'Artificial Intelligence refers to the simulation of human intelligence in machines that are programmed to think and learn like humans.',
+                imagehref: './assets/images/ai.jpg',
+                pdfhref: 'ai.pdf',
+            },
+            {
+                title: 'Study of Mobile App Development Industry',
+                author: 'Abid Bin Syeed',
+                description: 'App development that targets handheld devices has now become a standard by which services reach the target audience faster since almost everyone has access to a mobile device. The App Development industry has only grown in leaps and bounds ever since its inception. This paper discusses in detail the Mobile App Development Industry and its predominance in India. Objectives: To analyse and understand the Mobile App Development Industry worldwide, to understand the preference, usage, revenue, cost, and scope of App Development in India and to perform a SWOC Analysis for the Mobile App Development Industry.',
+                imagehref: './assets/images/mobile-app.jpg',
+                pdfhref: 'mobile-app.pdf',
+            },
+            {
+                title: 'Money Management among University Students',
+                author: 'Wan Rasyidah Wan Nawang, Syadiyah Abdul Shukor',
+                description: 'Money matters are integral to our lives and for university students, these are an even more pressing aspect. Thus, it is important for university students to have prudent and responsible money management as this can impact their future and personal well-being. The study is set to meet its objective which is to investigate the impact of economic, social, and psychological factors on money management among university students.',
+                imagehref: './assets/images/money-management.jpg',
+                pdfhref: 'money-management.pdf',
+            },
+        ];
+
+        // Function to generate HTML for journal cards
+        function generateJournalCards(journals) {
+            const journalCardsContainer = document.getElementById('journalCards');
+
+            journals.forEach((journal) => {
+                const cardHtml = `
+                    <div class="col mb-5 w-auto">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="${journal.imagehref}" alt="${journal.title}">
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h5 class="fw-bolder">${journal.title}</h5>
+                                    <p>${journal.description}</p>
+                                </div>
+                            </div>
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="${journal.pdfhref}">View PDF</a></div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                journalCardsContainer.innerHTML += cardHtml;
+            });
+        }
+
+        // Call the function to generate journal cards
+        generateJournalCards(journals);
+    </script>
+</body>
 </html>
